@@ -1,6 +1,16 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("com.github.dcendents:android-maven-gradle-plugin:2.1")
+    }
+}
+
 allprojects {
-    group = "tech.pm"
-    version = "1.0-SNAPSHOT"
+    group = "com.github.parimatchtech"
 
     repositories {
         jcenter()
