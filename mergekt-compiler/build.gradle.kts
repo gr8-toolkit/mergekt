@@ -1,7 +1,7 @@
 plugins {
     kotlin("jvm") version "1.3.72"
     kotlin("kapt") version "1.3.72"
-    id("com.github.dcendents.android-maven")
+    id("maven")
 }
 
 repositories {
