@@ -2,6 +2,7 @@
 Library for merge kotlin objects
 
 # Reason
+One of way for saving users traffic receive only data change data. In this case we need to merge local data with new data. We don't find library for implement with without reflection and create mergeKt.
 //TBD
 
 # Example
