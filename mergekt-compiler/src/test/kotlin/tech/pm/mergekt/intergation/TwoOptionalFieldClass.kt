@@ -112,8 +112,8 @@ internal class TwoOptionalFieldClass {
         @Language("kotlin") val result = """
             package $packageName
             
-            import com.parimatch.mergekt.api.NeedMergeMethod
-            import com.parimatch.mergekt.api.Optional
+            import tech.pm.mergekt.api.NeedMergeMethod
+            import tech.pm.mergekt.api.Optional
 
             @NeedMergeMethod
             data class $className(
