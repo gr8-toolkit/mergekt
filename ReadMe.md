@@ -6,6 +6,7 @@ One of way for saving users traffic receive only data change data. In this case 
 //TBD
 
 ## Add to project (gradle)
+
 ```kotlin
 implementation("com.github.parimatch-tech.mergekt:mergekt:0.2.2")
 kapt("com.github.parimatch-tech.mergekt:mergekt-compiler:0.2.2")
