@@ -1,9 +1,18 @@
-# MergeKt
-Library for merge kotlin objects
+## MergeKt overview
 
-# Reason
-One of way for saving users traffic receive only data change data. In this case we need to merge local data with new data. We don't find library for implement with without reflection and create mergeKt.
-//TBD
+MergeKt is a universal library for merging any Kotlin objects.
+ 
+If you have an "old" entity with local data, the MergeKt library will merge it with any partial data updates received for some of its fields, thus updating the whole entity.
+
+## Use case
+
+The MergeKt library can be useful when the back end sends incomplete data updates to apply the difference and get all front end local data updated.
+
+This saves user's Internet traffic, which can be important for the speed of an application.
+## Reason
+We did not find a suitable library that would do this for our app and so we decided to create our own. 
+
+Feel free to contribute and/or contact us if you happen to find any error.
 
 # Example
 
