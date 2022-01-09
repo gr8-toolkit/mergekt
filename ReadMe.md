@@ -14,6 +14,13 @@ We did not find a suitable library that would do this for our app and so we deci
 
 Feel free to contribute and/or contact us if you happen to find any error.
 
+## Add to project (gradle)
+
+```kotlin
+implementation("com.github.parimatch-tech.mergekt:mergekt:0.2.2")
+kapt("com.github.parimatch-tech.mergekt:mergekt-compiler:0.2.2")
+```
+
 # Example
 
 ```kotlin

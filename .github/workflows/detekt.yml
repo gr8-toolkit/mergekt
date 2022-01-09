@@ -1,0 +1,17 @@
+name: Detekt reviewdog
+on: [pull_request]
+
+jobs:
+  detekt:
+    name: Check Code Quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@master
+      - name: detekt
+        uses: parimatch-tech/Detekt-Action@master
+        with:
+          github_token: ${{ secrets.github_token }}
+          detekt_version: 1.11.0
+          detekt_config: config/detekt/config.yml
